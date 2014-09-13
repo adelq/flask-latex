@@ -3,4 +3,4 @@ LaTeX as a Service
 
 TODO
 ----
-* Remove old rendered files
+* Allow for configurable number of compiles
