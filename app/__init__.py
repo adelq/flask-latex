@@ -14,7 +14,7 @@ def main(url):
     # Generate UUID for each file uploaded
     tex_uuid = uuid.uuid4()
     tex_filename = 'tex/{}'.format(str(tex_uuid))
-    tex_file = urllib.urlretrieve(url, tex_filename)
+    urllib.urlretrieve(url, tex_filename)
 
     # Try to render LaTeX to PDF
     tex_render = pexpect.spawn(PDFLATEX_COMMAND.format(tex_filename))
