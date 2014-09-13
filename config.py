@@ -1,0 +1,4 @@
+SECRET_KEY = 'QKH1fYV3ZoequjpXUSaV2fBEKp4FefHZrO9Jgqc4'
+
+DEBUG = False
+TESTING = False
