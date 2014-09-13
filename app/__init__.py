@@ -1,7 +1,6 @@
 from flask import Flask, Response
 import urllib
 import pexpect
-from werkzeug import secure_filename
 import uuid
 
 # Create a Flask application with config
