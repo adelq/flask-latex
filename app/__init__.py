@@ -1,8 +1,8 @@
-from flask import Flask, Response
 import urllib
-import pexpect
 import uuid
 import os
+import pexpect
+from flask import Flask, Response
 
 # Create a Flask application with config
 app = Flask(__name__)
