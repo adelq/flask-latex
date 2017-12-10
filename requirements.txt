@@ -7,4 +7,3 @@ gunicorn==19.1.1
 itsdangerous==0.24
 pexpect==3.3
 requests==2.4.1
-wsgiref==0.1.2

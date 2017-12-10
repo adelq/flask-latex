@@ -9,6 +9,7 @@ app = Flask(__name__)
 
 PDFLATEX_COMMAND = "pdflatex -interaction=nonstopmode -output-directory=tex {}"
 
+
 @app.route('/<path:url>')
 def main(url):
     # Generate UUID for each file uploaded
